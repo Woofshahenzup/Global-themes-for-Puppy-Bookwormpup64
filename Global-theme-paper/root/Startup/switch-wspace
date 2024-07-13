@@ -1,0 +1,17 @@
+#!/bin/sh
+# Description: Using yad to pop-up the current workspace number when changing workspaces
+# Requires: wmctrl, yad 
+font="Neuropolitical" 
+CURRENT_WORKSPACE=$(($(wmctrl -d | grep \* | cut -d' ' -f1)+1))
+while true
+do
+ NEW_WORKSPACE=$(($(wmctrl -d | grep \* | cut -d' ' -f1)+1)) 
+ if [ $CURRENT_WORKSPACE -ne $NEW_WORKSPACE ]; then
+  (yad --skip-taskbar --form --timeout=3 --no-buttons --undecorated \
+      --columns="1" --on-top --geometry=20x20-40-40 \
+      --field="<span color='#607D8B' font='$font 36'>$NEW_WORKSPACE</span>!!:fbtn" "" \ &)
+  CURRENT_WORKSPACE=$NEW_WORKSPACE
+ fi
+ sleep 2  # Agregamos un retraso adicional antes de volver a verificar el cambio de espacio de trabajo
+done
+exit 0

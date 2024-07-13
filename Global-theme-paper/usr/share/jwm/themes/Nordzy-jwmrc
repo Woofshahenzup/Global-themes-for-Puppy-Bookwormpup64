@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<JWM> 
+	<WindowStyle>
+	<Font>URWGothic-12:bold</Font>
+	<Width>4</Width>
+	<Height>22</Height>
+	<Corner>3</Corner>
+	<Active>
+		<Foreground>#86afaf</Foreground>
+		<Background>#3b4252:#3b4252</Background>
+		<Outline>#86afaf</Outline>
+	</Active>
+	<Foreground>#c3c3c3</Foreground>
+	<Background>#3a4a56:#3a4a56</Background>
+	<Outline>#ffffff</Outline>
+</WindowStyle>
+
+<TrayStyle>
+	<Font>URWGothic-12:bold</Font>
+	<Opacity>0.85</Opacity>
+	<Foreground>#c4c4c4</Foreground>
+	<Background>#3b4252:#3b4252</Background>
+	<Outline>#3b4252</Outline>
+	<Active>
+		<Foreground>#788089</Foreground>
+		<Background>#3a4a56:#3a4a56</Background>
+	</Active>
+</TrayStyle>
+
+<TrayButtonStyle>
+	<Font>URWGothic-12:bold</Font>
+	<Foreground>#a7a7a7</Foreground>
+	<Background>#3b4252:#3b4252</Background>
+	<Outline>#86afaf</Outline>
+	<Active>
+		<Foreground>#86afaf</Foreground>
+		<Background>#3a4a56:#3a4a56</Background>
+	</Active>
+</TrayButtonStyle>
+
+<TaskListStyle>
+	<Font>URWGothic-12:bold</Font>
+	<Foreground>#a7a7a7</Foreground>
+	<Background>#3b4252:#3b4252</Background>
+	<Outline>#85adae</Outline>
+	<Active>
+		<Foreground>#87b1b1</Foreground>
+		<Background>#3a4a56:#3a4a56</Background>
+	</Active>
+</TaskListStyle>
+
+<PagerStyle>
+	<Font>terminalldr-25</Font>
+	<Text>#81a8a8</Text>
+	<Outline>#81a8a8</Outline>
+	<Foreground>#788089</Foreground>
+	<Background>#3a4a56</Background>
+	<Active>
+		<Foreground>#81a8a8</Foreground>
+		<Background>#3b4252</Background>
+	</Active>
+</PagerStyle>
+
+<PopupStyle delay="500">
+	<Font>Sans-10</Font>
+	<Outline>#86b0b0</Outline>
+	<Foreground>#84adad</Foreground>
+	<Background>#3b4252</Background>
+</PopupStyle>
+
+<MenuStyle>
+	<Font>URWGothic-12:bold</Font>
+	<Foreground>#c4c4c4</Foreground>
+	<Background>#3b4252</Background>
+	<Outline>#86afaf</Outline>
+	<Active>
+		<Foreground>#86afaf</Foreground>
+		<Background>#3a4a56:#3a4a56</Background>
+	</Active>
+</MenuStyle>
+
+<ClockStyle>
+	<Font>URWGothic-12:bold</Font>
+	<Foreground>#83acac</Foreground>
+	<Background>#3b4252:#3b4252</Background>
+</ClockStyle>
+
+</JWM>
+
+
+

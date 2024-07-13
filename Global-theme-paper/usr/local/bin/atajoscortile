@@ -1,0 +1,46 @@
+#!/bin/bash
+
+icon_theme=$(grep 'gtk-icon-theme-name' ~/.gtkrc-2.0 | cut -d'=' -f2 | tr -d ' ' | sed 's/"//g')
+icon_name="input-keyboard-symbolic"  # Cambia esto al nombre del icono que deseas usar
+
+# Ruta completa al icono
+#icon_path=$(find /usr/share/icons/$icon_theme -type f -name "$icon_name.*" | head -n 1)
+icon_path=$(locate -r /usr/share/icons/$icon_theme/ $icon_name\..* | head -n 1)
+
+
+yad --width=550 --height=700 \
+--center \
+--window-icon="$icon_path" \
+--title="Cortile Hotkeys" \
+--no-buttons \
+--list \
+--column=Atajo: \
+--column=Descripciónn: \
+--timeout=60 \
+--timeout-indicator=right \
+"ESC" "Cerrar esta ventana"  \
+"Ctrl-Shift-T" "habilitar/deshabilitar pantalla " \
+"Ctrl-Shift-R" "desactivar y restaurar pantalla"  \
+"Ctrl-Shift-punto" "mover disposición siguiente" \
+"Ctrl-Shift-comma" "mover disposición previa"  \
+"Ctrl-Shift-Espaciadora" "disposicón pantalla completa"  \
+"Ctrl-Shift-Derecha" "disposición vertical a la derecha "  \
+"Ctrl-Shift-Izquierda" "disposición vertiacal a la izquierda"  \
+"Ctrl-Shift-Arriba" "disposición horizontal arriba"  \
+"Ctrl-Shift-Abajo" "disposición horizontal abajo"  \
+"Ctrl-Shift-A" "ventana activa a maestra"  \
+"Ctrl-Shift-N" "siguiente ventana a maestra"  \
+"Ctrl-Shift-P" "ventana anterior a maestra"  \
+"Ctrl-Shift-L" "incrementar número de maestras" \
+"Ctrl-Shift-H" "reducir número de maestras"  \
+"Ctrl-Shift-K" "incrementar número de esclavas"  \
+"Ctrl-Shift-J" "reducir número de esclavas "  \
+"Ctrl-Shift-W" "incrementar proporción de maestra"  \
+"Ctrl-Shift-Q" "reducir proporción de maestra"  \
+"Ctrl-Shift-F" "enfocar siguiente ventana " \
+"Ctrl-Shift-D" "enfocar ventana anterior" \
+"arriba izquierda" "enfocar ventana anterior" \
+"arriba derecha" "ventana activa a maestra"  \
+"abajo derecha" "incrementar proporción de maestra"  \
+"abajo izquierda" "reducir proporción de maestra"  \
+"Ventana se cierra en 60 seg."\
