@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+
+<!-- Created by JWM Theme Builder -->
+<!-- Format requires JWM >= 2.3.6 -->
+
+<JWM>
+
+<WindowStyle>
+	<Font>Agave-14:bold</Font>
+	<Width>8</Width>
+	<Height>28</Height>
+	<Corner>5</Corner>
+	<Active>
+		<Foreground>#ffffff</Foreground>
+		<Background>#51788a:#51788a</Background>
+		<Outline>#ff0000</Outline>
+	</Active>
+	<Foreground>#383838</Foreground>
+	<Background>#51788a:#51788a</Background>
+	<Outline>#aaaaaa</Outline>
+</WindowStyle>
+
+<TrayStyle>
+	<Font>Sans-10:normal</Font>
+	<Opacity>0.85</Opacity>
+	<Foreground>#333333</Foreground>
+	<Background>#51788a:#51788a</Background>
+	<Outline>#51788a</Outline>
+	<Active>
+		<Foreground>#000000</Foreground>
+		<Background>#02506b:#02506b</Background>
+	</Active>
+</TrayStyle>
+
+<TrayButtonStyle>
+	<Font>Sans-10:normal</Font>
+	<Foreground>#000000</Foreground>
+	<Background>#51788a:#51788a</Background>
+	<Outline>#ffffff</Outline>
+	<Active>
+		<Foreground>#000000</Foreground>
+		<Background>#51788a:#51788a</Background>
+	</Active>
+</TrayButtonStyle>
+
+<TaskListStyle>
+	<Font>Sans-10:normal</Font>
+	<Foreground>#333333</Foreground>
+	<Background>#51788a:#51788a</Background>
+	<Outline>#51788a</Outline>
+	<Active>
+		<Foreground>#000000</Foreground>
+		<Background>#a0a1a2:#a0a1a2</Background>
+	</Active>
+</TaskListStyle>
+
+<PagerStyle>
+	<Font>QUICKSILVER-14:bold</Font>
+	<Outline>#ffffff</Outline>
+		<Text>#51788A</Text>
+	<Foreground>#9fa1a2</Foreground>
+	<Background>#000000</Background>
+	<Active>
+		<Foreground>#51788a</Foreground>
+		<Background>#000000</Background>
+	</Active>
+</PagerStyle>
+
+<PopupStyle delay="500">
+	<Font>Agave-13:bold</Font>
+	<Outline>#000000</Outline>
+	<Foreground>#000000</Foreground>
+	<Background>#91aabf</Background>
+</PopupStyle>
+
+<MenuStyle>
+	<Font>Agave-10:bold</Font>
+	<Foreground>#000000</Foreground>
+	<Background>#51788a</Background>
+	<Outline>#999999</Outline>
+	<Active>
+		<Foreground>#e3e3e3</Foreground>
+		<Background>#51788a:#51788a</Background>
+	</Active>
+</MenuStyle>
+
+<ClockStyle>
+	<Font>Agave-14:bold</Font>
+	<Foreground>#000000</Foreground>
+	<Background>#51788a:#51788a</Background>
+</ClockStyle>
+
+</JWM>
+

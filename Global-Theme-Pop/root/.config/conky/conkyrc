@@ -1,0 +1,61 @@
+#### Conky para Puppyosx creado por 
+###   Nilsonmorales 24 de Marzo 2016
+
+#------------------------- Windows Settings
+# Create own window instead of using desktop (required in nautilus)
+alignment top_right
+own_window true
+own_window_type normal
+own_window_transparent yes
+own_window_hints undecorated,sticky,below,skip_taskbar,skip_pager
+#own_window_colour black
+own_window_class Conky
+own_window_title TEST
+
+own_window true
+own_window_transparent true
+own_window_type override
+own_window_argb_visual false
+
+double_buffer yes
+
+#------------------------- Location
+minimum_size 340 200
+#gap_x 310
+#gap_y 310
+
+#------------------------- FONT
+use_xft yes
+xftfont SAO UI:bold:size=13
+xftalpha 0.8 	# Alpha of Xft font. Must be a value at or between 1 and 0 ###
+override_utf8_locale yes
+draw_shades no
+default_shade_color black
+draw_outline no
+uppercase no
+
+#------------------------- BORDER
+draw_borders no
+draw_outline no
+stippled_borders 0
+border_inner_margin 0
+border_outer_margin 0
+border_width 0
+
+#------------------------- OTHER
+background no
+update_interval 1
+
+lua_load /root/.config/conky/puppybars.lua
+lua_draw_hook_post main_bars
+
+
+draw_graph_borders no
+
+TEXT
+${font 	Zekton:bold:size=17}${alignc}${execi 300 date +"%A, %B %d"}
+${alignc}${exec source /etc/DISTRO_SPECS && echo "$DISTRO_NAME"}
+${font SAO UI:size=20}${voffset 12} ${offset 197}${font}  CPU >>> ${cpu cpu0}%
+${voffset 20} ${offset 90}MEM >>> ${memperc}%
+${voffset 28} ${offset 170}   ROOT >>> ${fs_used_perc /root}%
+

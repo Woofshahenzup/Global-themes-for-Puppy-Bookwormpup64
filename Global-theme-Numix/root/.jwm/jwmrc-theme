@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+
+<!-- Created by JWM Theme Builder -->
+<!-- Format requires JWM >= 2.3.6 -->
+
+<JWM>
+
+<WindowStyle>
+	<Font>TerminessNerdFont-14:bold</Font>
+	<Width>5</Width>
+	<Height>24</Height>
+	<Corner>4</Corner>
+	<Active>
+		<Foreground>#ea9036</Foreground>
+		<Background>#2c2c2c:#2c2c2c</Background>
+		<Outline>#EA9036</Outline>
+	</Active>
+	<Foreground>#d0d0d0</Foreground>
+	<Background>#4c4c4c:#4c4c4c</Background>
+	<Outline>#2c2c2c</Outline>
+</WindowStyle>
+
+<TrayStyle>
+	<Font>TerminessNerdFont-14:bold</Font>
+	<Opacity>0.85</Opacity>
+	<Foreground>#ffffff</Foreground>
+	<Background>#2c2c2c:#2c2c2c</Background>
+	<Outline>#000000</Outline>
+	<Active>
+		<Foreground>#ea9036</Foreground>
+		<Background>#4c4c4c:#4c4c4c</Background>
+	</Active>
+</TrayStyle>
+
+<TrayButtonStyle>
+	<Font>TerminessNerdFont-14:bold</Font>
+	<Foreground>#ffffff</Foreground>
+	<Background>#2c2c2c:#2c2c2c</Background>
+	<Outline>#ffffff</Outline>
+	<Active>
+		<Foreground>#ea9036</Foreground>
+		<Background>#4c4c4c:#4c4c4c</Background>
+	</Active>
+</TrayButtonStyle>
+
+<TaskListStyle>
+	<Font>TerminessNerdFont-14:bold</Font>
+	<Foreground>#ffffff</Foreground>
+	<Background>#2c2c2c:#2c2c2c</Background>
+	<Outline>#000000</Outline>
+	<Active>
+		<Foreground>#ea9036</Foreground>
+		<Background>#4c4c4c:#4c4c4c</Background>
+	</Active>
+</TaskListStyle>
+
+<PagerStyle>
+	<Font>QUICKSILVER-12:bold</Font>
+	<Text>#ea9036</Text>
+	<Outline>#000000</Outline>
+	<Foreground>#dcdad5</Foreground>
+	<Background>#4c4c4c</Background>
+	<Active>
+		<Foreground>#4c4c4c</Foreground>
+		<Background>#2c2c2c</Background>
+	</Active>
+</PagerStyle>
+
+<PopupStyle delay="500">
+	<Font>TerminessNerdFont-14:bold</Font>
+	<Outline>#000000</Outline>
+	<Foreground>#ea9036</Foreground>
+	<Background>#2c2c2c</Background>
+</PopupStyle>
+
+<MenuStyle>
+	<Font>TerminessNerdFont-12:bold</Font>
+	<Foreground>#d0d0d0</Foreground>
+	<Background>#2c2c2c</Background>
+	<Outline>#999999</Outline>
+	<Active>
+		<Foreground>#ea9036</Foreground>
+		<Background>#2c2c2c:#2c2c2c</Background>
+	</Active>
+</MenuStyle>
+
+<ClockStyle>
+	<Font>TerminessNerdFont-14:bold</Font>
+	<Foreground>#ffffff</Foreground>
+	<Background>#2c2c2c:#2c2c2c</Background>
+</ClockStyle>
+
+</JWM>
+

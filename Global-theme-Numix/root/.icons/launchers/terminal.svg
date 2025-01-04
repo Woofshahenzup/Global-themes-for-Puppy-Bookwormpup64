@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg7"
+   sodipodi:docname="terminal.svg"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:object-nodes="false"
+     inkscape:snap-nodes="false"
+     inkscape:zoom="3.765625"
+     inkscape:cx="12.215768"
+     inkscape:cy="7.8340249"
+     inkscape:window-width="1356"
+     inkscape:window-height="709"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg7" />
+  <defs
+     id="defs3">
+    <style
+       id="current-color-scheme"
+       type="text/css">
+   .ColorScheme-Text { color:#aaaaaa; } .ColorScheme-Highlight { color:#5294e2; }
+  </style>
+  </defs>
+  <g
+     id="g1527"
+     transform="translate(0.05512838,-0.95629417)">
+    <path
+       style="fill:currentColor;stroke-width:2.47478"
+       class="ColorScheme-Text"
+       d="M 9.5252765,7.6328194 V 15.057165 H 2.1009306 v 4.949564 h 7.4243459 v 9.899128 H 2.1009306 v 4.949566 h 7.4243459 v 7.424344 H 14.47484 v -7.424344 h 9.899128 v 7.424344 h 4.949563 v -7.424344 h 7.424346 v -4.949566 h -7.424346 v -9.899128 h 7.424346 V 15.057165 H 29.323531 V 7.6328194 H 24.373968 V 15.057165 H 14.47484 V 7.6328194 Z M 14.47484,20.006729 h 9.899128 v 9.899128 H 14.47484 Z"
+       id="path5" />
+    <rect
+       style="fill:#aaaaaa;stroke-width:4.41748;stroke-linejoin:round"
+       id="rect952"
+       width="4.949564"
+       height="27.222603"
+       x="40.839249"
+       y="15.057166" />
+    <path
+       id="rect1056"
+       style="fill:#aaaaaa;stroke-width:4.41748;stroke-linejoin:round"
+       d="m 40.839248,7.6328194 h 4.94956 v 6.3563296 h -4.94956 z"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+</svg>

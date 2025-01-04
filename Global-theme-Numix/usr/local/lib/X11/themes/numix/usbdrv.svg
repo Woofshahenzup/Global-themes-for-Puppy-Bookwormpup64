@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="usbdrv.svg"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs18" />
+  <sodipodi:namedview
+     id="namedview16"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="7.1005306"
+     inkscape:cx="23.941873"
+     inkscape:cy="27.673988"
+     inkscape:window-width="1356"
+     inkscape:window-height="709"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg14" />
+  <path
+     d="m 24,41.673484 c 10.302431,0 10.302431,-7.732149 10.302431,-7.732149 V 15.163258 c 0,-1.223889 -1.312824,-2.209185 -2.943551,-2.209185 H 16.64112 c -1.630727,0 -2.943551,0.985296 -2.943551,2.209185 v 18.778077 c 0,0 0,7.732149 10.302431,7.732149 z"
+     style="fill:#dc4946;fill-opacity:1;stroke:none;stroke-width:1.27503"
+     id="path2" />
+  <rect
+     width="14.717758"
+     height="6.6275563"
+     x="16.641119"
+     y="-12.954073"
+     transform="scale(1,-1)"
+     style="fill:#657b83;fill-opacity:1;stroke:none;stroke-width:1.27503"
+     id="rect6" />
+  <rect
+     width="3.8315036"
+     height="2.8756084"
+     x="25.904278"
+     y="-10.577322"
+     transform="scale(1,-1)"
+     style="opacity:0.654;fill:#073642;fill-opacity:1;stroke:none;stroke-width:1.65966"
+     id="rect12" />
+  <rect
+     width="3.8315036"
+     height="2.8756084"
+     x="18.453028"
+     y="-10.577322"
+     transform="scale(1,-1)"
+     style="opacity:0.654;fill:#073642;fill-opacity:1;stroke:none;stroke-width:1.65966"
+     id="rect1102" />
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>  
+<JWM>
+	<Tray autohide="off" insert="right" width="0" height="30" layer="above" layout="horizontal" halign="left" valign="bottom" >
+				<Spacer width="5" height="5"/>
+		<TrayButton label="PuppyLinux" icon="/root/.icons/launchers/menu.svg" border="false">root:3</TrayButton>
+		<Spacer width="5" height="5"/>
+		<TrayButton popup="Show desktop" icon="/root/.icons/launchers/show-desktop.svg">showdesktop</TrayButton>
+				<Spacer width="5" height="5"/>
+		<TrayButton popup="Browser" icon="/root/.icons/launchers/www.svg" border="false">exec:defaultbrowser</TrayButton>
+				<Spacer width="5" height="5"/>
+		<TrayButton popup="Terminal" icon="/root/.icons/launchers/terminal.svg" border="false">exec:defaultterminal</TrayButton>
+				<Spacer width="5" height="5"/>
+		<TrayButton popup="File Manager" icon="/root/.icons/launchers/folder.svg" border="false">exec:rox</TrayButton>
+		<Spacer width="5" height="5"/>
+		<TaskList maxwidth="200" labeled="false"/>
+		<Spacer width="5" height="5"/>
+		<Pager labeled="true"/>
+		<Spacer width="5" height="5"/>
+		<Dock spacing="7"/>
+		<Spacer width="5" height="5"/>
+		<Clock format="%a %l:%M %p"><Button mask="1">exec:minixcal</Button><Button mask="3">exec:PupClockset</Button></Clock>
+		<Spacer width="5" height="5"/>
+	</Tray>
+</JWM>
