@@ -1,0 +1,24 @@
+<?xml version="1.0"?>  
+<JWM>
+	<Tray autohide="off" insert="right" y"10" layer="above" halign="center" valign="" height="30" layout="horizontal" >
+				<Pager labeled="true"/>
+		<Spacer width="195" height="5"/>
+				<Dock spacing="15"/>
+		<Spacer width="15" height="5"/>
+				<TrayButton popup="Set Date" icon="/root/.icons/launchers/clock.svg" border="false">exec:set-time-for-puppy</TrayButton>
+		<Clock format="%a %l:%M %p"><Button mask="1">exec:minixcal</Button><Button mask="3">exec:PupClockset</Button></Clock>
+		<Spacer width="290" height="5"/>
+		<TrayButton popup="Places" icon="/root/.icons/launchers/harddisk.svg" border="false">root:x</TrayButton>
+		<Spacer width="15" height="5"/>
+		<TrayButton popup="File-Manager" icon="/root/.icons/launchers/folder.svg">exec:rox</TrayButton>
+				<Spacer width="15" height="5"/>
+		<TrayButton popup="Browser" icon="/root/.icons/launchers/www.svg" border="false">exec:defaultbrowser</TrayButton>
+				<Spacer width="15" height="5"/>
+		<TrayButton popup="Terminal" icon="/root/.icons/launchers/terminal.svg" border="false">exec:defaultterminal</TrayButton>
+		<Spacer width="5" height="15"/>
+	</Tray>
+			<Tray autohide="on" x"1000"  insert="" layer="above" halign="center" valign="bottom" height="60" layout="horizontal"
+				<TaskList group="true" decorations="motif" maxwidth="70" labeled="false"/>
+		<Spacer width="5" height="5"/> 	
+	</Tray>
+</JWM>

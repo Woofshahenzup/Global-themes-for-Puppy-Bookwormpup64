@@ -1,0 +1,6 @@
+FILER="defaultfilemanager"
+IMGEDITOR="defaultpaint"
+INT="15"
+SLIDEDIR="/usr/share/backgrounds"
+VIEWER="defaultimageviewer"
+EXIT="OK"

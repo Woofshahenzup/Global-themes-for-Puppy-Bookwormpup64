@@ -1,0 +1,5 @@
+#!/bin/bash
+# Obtiene el ID de la ventana activa
+active_window_id=$(xprop -root _NET_ACTIVE_WINDOW | awk '{print $5}')
+# Cierra la ventana activa
+xdotool windowclose "$active_window_id"
