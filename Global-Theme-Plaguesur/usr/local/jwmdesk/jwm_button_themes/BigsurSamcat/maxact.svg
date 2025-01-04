@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   height="100"
+   width="100"
+   id="svg2"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="maxact.svg">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10">
+    <linearGradient
+       y2="87"
+       x2="13"
+       y1="13"
+       x1="13"
+       id="grad2"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop3001"
+         style="stop-color:#D18D0E;stop-opacity:0"
+         offset="8%" />
+      <stop
+         id="stop3003"
+         style="stop-color:#D18D0E;stop-opacity:.6"
+         offset="25%" />
+      <stop
+         id="stop3005"
+         style="stop-color:#D18D0E;stop-opacity:.8"
+         offset="50%" />
+      <stop
+         id="stop3007"
+         style="stop-color:#D18D0E;stop-opacity:.3"
+         offset="100%" />
+    </linearGradient>
+    <linearGradient
+       y2="93"
+       x2="6"
+       y1="5"
+       x1="6"
+       id="grad1"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop2994"
+         style="stop-color:#523200;stop-opacity:1"
+         offset="20%" />
+      <stop
+         id="stop2996"
+         style="stop-color:#523200;stop-opacity:0.8"
+         offset="50%" />
+      <stop
+         id="stop2998"
+         style="stop-color:#523200;stop-opacity:0.1"
+         offset="100%" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#d96666"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0.68235294"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="768"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="2.36"
+     inkscape:cx="-18.913713"
+     inkscape:cy="98.09322"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#00d400;fill-opacity:1;fill-rule:evenodd;stroke:none"
+     id="path3036"
+     sodipodi:cx="21.61017"
+     sodipodi:cy="36.440678"
+     sodipodi:rx="48.305084"
+     sodipodi:ry="48.305084"
+     d="m 69.915255,36.440678 a 48.305084,48.305084 0 1 1 -96.610169,0 48.305084,48.305084 0 1 1 96.610169,0 z"
+     transform="matrix(0.72456141,0,0,0.72456141,34.342104,23.596491)" />
+</svg>

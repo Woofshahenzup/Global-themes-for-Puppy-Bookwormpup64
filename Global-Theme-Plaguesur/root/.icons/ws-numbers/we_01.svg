@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="48"
+   height="48"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="we_01.svg"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="7.5312501"
+     inkscape:cx="19.717842"
+     inkscape:cy="18.323651"
+     inkscape:window-width="1330"
+     inkscape:window-height="692"
+     inkscape:window-x="20"
+     inkscape:window-y="10"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg9"
+     showguides="false" />
+  <defs
+     id="defs3">
+    <style
+       id="current-color-scheme"
+       type="text/css">
+   .ColorScheme-Text { color:#aaaaaa; } .ColorScheme-Highlight { color:#4285f4; }
+  </style>
+    <style
+       id="current-color-scheme-5"
+       type="text/css">
+   .ColorScheme-Text { color:#aaaaaa; } .ColorScheme-Highlight { color:#4285f4; }
+  </style>
+  </defs>
+  <g
+     aria-label="1"
+     id="text1177"
+     style="font-size:30.3443px;line-height:1.25;font-family:Neuropolitical;-inkscape-font-specification:Neuropolitical;letter-spacing:0px;word-spacing:0px;fill:#e6e6e6;fill-opacity:1;stroke-width:0.758607"
+     transform="matrix(0.86723988,0,0,0.86723988,3.1862437,2.656872)">
+    <path
+       d="M 21.693832,31.79561 V 11.100798 h 4.612334 V 31.79561 Z"
+       id="path8733"
+       style="fill:#e6e6e6;fill-opacity:1" />
+  </g>
+  <path
+     style="fill:#78909c;stroke-width:2.88046;fill-opacity:1"
+     class="ColorScheme-Text"
+     d="m 3.8367927,3.8367917 c 0,0 -2.88045902,0 -2.88045902,2.8804587 V 35.521833 c 0,2.88046 2.88045902,2.88046 2.88045902,2.88046 h 8.6413733 v 2.880456 c 0,2.880459 2.880459,2.880459 2.880459,2.880459 h 17.282749 c 0,0 2.880459,0 2.880459,-2.880459 v -2.880456 h 8.641375 c 0,0 2.880458,0 2.880458,-2.88046 V 6.7172504 c 0,-2.8804587 -2.880458,-2.8804587 -2.880458,-2.8804587 z M 6.7172503,9.5977086 H 41.282749 V 32.641374 H 6.7172503 Z"
+     id="path7" />
+</svg>

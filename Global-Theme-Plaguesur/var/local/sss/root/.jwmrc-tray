@@ -1,0 +1,14 @@
+<?xml version="1.0"?>  
+<JWM>
+	<Tray autohide="off" insert="right" layer="above" halign="left" valign="top" height="30" layout="horizontal" >
+		<Spacer width="15" height="5"/>
+		<TaskList maxwidth="200" labeled="false"/>
+		<Spacer width="5" height="5"/>
+		<Dock spacing="8"/>
+		<Spacer width="5" height="5"/>
+		<Clock format="%a %l:%M %p"><Button mask="1">exec:minixcal</Button><Button mask="3">exec:PupClockset</Button></Clock>
+		<Spacer width="5" height="5"/>
+		<TrayButton popup="Show desktop" icon="/usr/local/lib/X11/pixmaps/pc48.png">showdesktop</TrayButton>
+		<Spacer width="5" height="5"/>
+	</Tray>
+</JWM>

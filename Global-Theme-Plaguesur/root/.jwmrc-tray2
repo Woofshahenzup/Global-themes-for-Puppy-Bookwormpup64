@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<JWM>
+	<Tray autohide="on" insert="right" width="0" height="54" layer="above" layout="horizontal" halign="center" valign="bottom" >
+		<Spacer width="10" height="10"/>
+		<TrayButton popup="File" icon="/usr/local/lib/X11/pixmaps/home48.png">exec:defaultfilemanager</TrayButton>
+		<TrayButton popup="Setup" icon="/usr/local/lib/X11/pixmaps/configuration48.png">exec:PupControl</TrayButton>
+		<TrayButton popup="Console" icon="/usr/local/lib/X11/pixmaps/console48.png">exec:defaultterminal</TrayButton>
+		<TrayButton popup="Process" icon="/usr/local/lib/X11/pixmaps/pc48.png">exec:defaultprocessmanager</TrayButton>
+		<TrayButton popup="Edit" icon="/usr/local/lib/X11/pixmaps/edit48.png">exec:defaulttexteditor</TrayButton>
+		<TrayButton popup="Write" icon="/usr/local/lib/X11/pixmaps/word48.png">exec:defaultwordprocessor</TrayButton>
+		<TrayButton popup="Calc" icon="/usr/local/lib/X11/pixmaps/spread48.png">exec:defaultspreadsheet</TrayButton>
+		<TrayButton popup="Paint" icon="/usr/local/lib/X11/pixmaps/paint48.png">exec:defaultpaint</TrayButton>
+		<TrayButton popup="Take a shot" icon="/usr/local/lib/X11/pixmaps/camera48.png">exec:tas</TrayButton>		
+		<TrayButton popup="Browse" icon="/usr/local/lib/X11/pixmaps/www48.png">exec:defaultbrowser</TrayButton>
+		<TrayButton popup="Calculator" icon="/usr/local/lib/X11/pixmaps/calculator48.png">exec:galculator</TrayButton>
+		<TrayButton popup="Chat" icon="/usr/local/lib/X11/pixmaps/chat48.png">exec:weechat</TrayButton>
+		<TrayButton popup="Pmount" icon="/usr/local/lib/X11/pixmaps/drive48.png">exec:pmount</TrayButton>
+		<TrayButton popup="Archive" icon="/usr/local/lib/X11/pixmaps/archive48.png">exec:xarchiver</TrayButton>
+		<TrayButton popup="Date" icon="/usr/local/lib/X11/pixmaps/date48.png">exec:osmo</TrayButton>
+		<TrayButton popup="Play" icon="/usr/local/lib/X11/pixmaps/multimedia48.png">exec:defaultmediaplayer</TrayButton>
+				<TrayButton popup="Lock" icon="/usr/local/lib/X11/pixmaps/lock-screen48.png">exec:xlock</TrayButton>
+		<TrayButton popup="Connect" icon="/usr/local/lib/X11/pixmaps/connect48.png">exec:connman-gtk-ui</TrayButton>
+		<TrayButton popup="Utility" icon="/usr/local/lib/X11/pixmaps/utility48.png">exec:quicksetup</TrayButton>
+		<TrayButton popup="Trash" icon="/usr/local/lib/X11/pixmaps/trashcan_empty48.png">exec:rox .Trash</TrayButton>
+		<TrayButton popup="Exit" icon="/usr/local/lib/X11/pixmaps/shutdown48.png">exec:/usr/local/jwmdesk/logout_gui_jwm</TrayButton>
+		<Spacer width="10" height="10"/>
+	</Tray>
+</JWM>

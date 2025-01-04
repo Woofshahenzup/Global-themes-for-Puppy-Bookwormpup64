@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="48"
+   height="48"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="shield_yes.svg"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="15.0625"
+     inkscape:cx="0.7966805"
+     inkscape:cy="8"
+     inkscape:window-width="1356"
+     inkscape:window-height="709"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <g
+     id="g14"
+     transform="matrix(2.484238,0,0,2.484238,4.1258973,4.1164485)">
+    <path
+       d="m 8,-0.046875 -0.29688,0.091797 -6.7031,2.0859 v 7.2695 c 0,2.477 1.9475,4.0384 3.3926,4.9805 1.5153,0.9879 3.2891,1.5664 3.2891,1.5664 l 0.31836,0.10742 0.31836,-0.10742 c 0,0 1.7738,-0.57858 3.2891,-1.5664 h 0.002 l 0.002,-0.002 c 1.4464,-0.95292 3.3886,-2.5214 3.3886,-4.9785 v -7.2695 z m 0,2.0938 5,1.5566 v 5.7969 c 0,1.3493 -1.2145,2.466 -2.4863,3.3047 C 9.4445,13.402145 8.302,13.792225 8,13.900425 7.698,13.792235 6.5555,13.402165 5.4863,12.705125 4.2113,11.873895 3,10.787425 3,9.400425 v -5.7969 z"
+       fill="#aaaaaa"
+       id="path2" />
+    <path
+       d="M 8,3.0938 4,4.3399 v 5.0605 c 0,0.40239 0.16683,0.78634 0.5293,1.2168 0.36247,0.43046 0.91202,0.86412 1.5039,1.25 0.80146,0.52249 1.5203,0.76874 1.9668,0.93164 0.44654,-0.16292 1.1653,-0.40916 1.9668,-0.93164 0.58589,-0.38682 1.1351,-0.8297 1.5,-1.2656 C 11.8327,10.16445 12,9.77505 12,9.4004 V 4.3399 Z"
+       color="#000000"
+       fill="#aaaaaa"
+       opacity="0.35"
+       stroke-width="2"
+       id="path4" />
+  </g>
+</svg>

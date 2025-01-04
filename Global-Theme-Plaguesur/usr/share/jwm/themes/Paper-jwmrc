@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+
+<!-- Created by JWM Theme Builder -->
+<!-- Format requires JWM >= 2.3.6 -->
+
+<JWM>
+
+<WindowStyle>
+	<Opacity>0.85</Opacity>
+	<Font>URWGothic-11:bold</Font>
+	<Width>5</Width>
+	<Height>24</Height>
+	<Corner>4</Corner>
+	<Active>
+		<Foreground>#ffffff</Foreground>
+		<Background>#191515:#191515</Background>
+		<Outline>#ffffff</Outline>
+	</Active>
+	<Foreground>#ffffff</Foreground>
+	<Background>#717171:#717171</Background>
+	<Outline>#717171</Outline>
+</WindowStyle>
+
+<TrayStyle>
+	<Font>URWGothic-11:bold</Font>
+	<Opacity>0.85</Opacity>
+	<Foreground>#fdfdfd</Foreground>
+	<Background>#191515:#191515</Background>
+	<Outline>#191515</Outline>
+	<Active>
+		<Foreground>#ffffff</Foreground>
+		<Background>#191515:#191515</Background>
+	</Active>
+</TrayStyle>
+
+<TrayButtonStyle>
+	<Opacity>0.85</Opacity>
+	<Font>URWGothic-11:bold</Font>
+	<Foreground>#ffffff</Foreground>
+	<Background>#191515:#191515</Background>
+	<Outline>#ffffff</Outline>
+	<Active>
+		<Foreground>#ffffff</Foreground>
+		<Background>#191515:#191515</Background>
+	</Active>
+</TrayButtonStyle>
+
+<TaskListStyle>
+	<Opacity>0.85</Opacity>
+	<Font>URWGothic-11:bold</Font>
+	<Foreground>#ffffff</Foreground>
+	<Background>#191515:#191515</Background>
+	<Outline>#ffffff</Outline>
+	<Active>
+		<Foreground>#ffffff</Foreground>
+		<Background>#B6492F:#B6492F</Background>
+	</Active>
+</TaskListStyle>
+
+<PagerStyle>
+	<Opacity>0.85</Opacity>
+	<Outline>#2b2b2b</Outline>
+	<Foreground>#717171</Foreground>
+	<Background>#171717</Background>
+	<Active>
+		<Foreground>#8899aa</Foreground>
+		<Background>#717171</Background>
+	</Active>
+</PagerStyle>
+
+<PopupStyle delay="500">
+	<Opacity>0.85</Opacity>
+	<Font>Sans-10</Font>
+	<Outline>#2b2b2b</Outline>
+	<Foreground>#ffffff</Foreground>
+	<Background>#191515</Background>
+</PopupStyle>
+
+<MenuStyle>
+	<Opacity>0.85</Opacity>
+	<Font>URWGothic-11:bold</Font>
+	<Foreground>#ffffff</Foreground>
+	<Background>#191515</Background>
+	<Outline>#2b2b2b</Outline>
+	<Active>
+		<Foreground>#ffffff</Foreground>
+		<Background>#717171:#717171</Background>
+	</Active>
+</MenuStyle>
+
+<ClockStyle>
+	<Opacity>0.85</Opacity>
+	<Font>URWGothic-11:bold</Font>
+	<Foreground>#ffffff</Foreground>
+	<Background>#191515:#191515</Background>
+</ClockStyle>
+
+</JWM>
+

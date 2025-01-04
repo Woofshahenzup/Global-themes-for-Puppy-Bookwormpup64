@@ -1,0 +1,405 @@
+<?xml version="1.0"?>
+
+<JWM>
+
+<!-- version flag for rc.update -->
+<!-- When updating change number here and in rc.update -->
+<!-- XDG_JWMRC_VERSION_001 -->
+
+<!-- IMPORTANT, ONLY EDIT /etc/xdg/templates/_root_.jwmrc -->
+<!-- jwm menu for puppy Linux -->
+<RootMenu label="z" labeled="false" height="24" onroot="z"><Include>exec:/usr/local/jwmdesk/menu_utilities_build</Include></RootMenu>
+
+<RootMenu label="x" labeled="false" height="24" onroot="x"><Include>exec:/usr/local/jwmdesk/menu_places_build</Include></RootMenu>
+
+<RootMenu label="Menu" labeled="false" height="24" onroot="3">
+<Menu label="Desktop" icon="x48.png" height="24">
+<Program label="Display Control" icon="/usr/local/dcontrol/icons/monitor.svg" tooltip="Set screen tint and brightness">/usr/local/dcontrol/dcontrol</Program>
+<Program label="Display Settings" icon="/usr/share/pixmaps/puppy/graphics.svg" tooltip="Monitor configuration tool">lxrandr</Program>
+<Program label="JWMdesk" icon="/usr/local/jwmdesk/icons/jwmdesk64.png" tooltip="Manage JWM desktop">jwmdesk</Program>
+<Program label="JWMdesk Theme Manager" icon="/usr/local/jwmdesk/icons/jwm_themes.svg" tooltip="Change colors of JWM desktop">/usr/local/jwmdesk/jcc</Program>
+<Program label="Legacy Theme Tools" icon="/usr/local/jwmdesk/icons/theme_switcher.svg" tooltip="Change desktop themes">/usr/bin/puppy_desktop</Program>
+<Program label="PupClockset | gestor de reloj" icon="/usr/local/PupClockset/icons/clockformat48.png" tooltip="PupClockset manager">PupClockset</Program>
+<Program label="Xlock setup" icon="/usr/share/pixmaps/puppy/screen_lock.svg" tooltip="Configure Xlock screen locking">/usr/local/apps/Xlock/AppRun -configure</Program>
+ <Separator/> 
+<Program label="Chooselocale" icon="/usr/share/pixmaps/puppy/country_language.svg" tooltip="Choose your country localisation">chooselocale</Program>
+ <Separator/> 
+<Program label="Font viewer" icon="/usr/share/pixmaps/puppy/font.svg" tooltip="Font viewer">gfontsel</Program>
+</Menu>
+<Menu label="System" icon="pc48.png" height="24">
+<Program label="Boot manager" icon="/usr/share/pixmaps/puppy/startup.svg" tooltip="Configure bootup apps and actions">bootmanager</Program>
+<Program label="Gestor de conexiones Bluetooth" icon="blueman.png" tooltip="Gestor de conexiones Bluetooth Blueman">blueman-manager</Program>
+<Program label="Gestor de tareas" icon="execute.svg" tooltip="Gestione los procesos en ejecución">lxtask</Program>
+<Program label="IPInfo" icon="/usr/share/pixmaps/puppy/network.svg" tooltip="Network information">ipinfo</Program>
+<Program label="Informacion y Rendimiento del Sistema" icon="/usr/share/hardinfo/pixmaps/logo.png" tooltip="System profiler and benchmarks">/usr/bin/hardinfo</Program>
+<Program label="Neofetch" icon="/usr/share/pixmaps/puppy/info.svg" tooltip="Concise system information">urxvt -title "Neofetch" -geometry 102x30 -e sh -c 'neofetch ; read p'</Program>
+<Program label="Pup-Kview" icon="/usr/local/Pup-Kview/icons/pupkview.svg" tooltip="Kernel module viewer">Pup-Kview</Program>
+<Program label="Pup-SysInfo" icon="/usr/local/Pup-SysInfo/icons/Pup-SysInfo48.png" tooltip="System information utility">Pup-SysInfo</Program>
+<Program label="Wcpufreq" icon="/usr/share/icons/devices/cpu.png" tooltip="CPU Frequency Scaling Tool">wcpufreq</Program>
+ <Separator/> 
+<Program label="Btop++" icon="/usr/share/pixmaps/btop.png" tooltip="System Process Viewer">/usr/bin/lxterminal -e btop</Program>
+<Program label="Event manager" icon="/usr/share/pixmaps/puppy/execute.svg" tooltip="Configure services running in the background">eventmanager</Program>
+<Program label="Gatotray" icon="/usr/share/pixmaps/puppy/graph.svg" tooltip="Gatotray system monitor">gatotray.sh</Program>
+<Program label="Htop" icon="htop.png" tooltip="Mostrar procesos del sistema">rxvt -title 'Htop' -e sh -c 'htop'</Program>
+<Program label="pSchedule" icon="/usr/share/pixmaps/puppy/clock_interval.svg" tooltip="Set up a task on a given time">/usr/local/bin/pschedule</Program>
+ <Separator/> 
+<Program label="GParted" icon="gparted" tooltip="Cree, reorganice y elimine particiones">gparted_shell</Program>
+ <Separator/> 
+<Program label="Login manager" icon="/usr/share/pixmaps/puppy/user_login.svg" tooltip="Configure login and security">loginmanager</Program>
+<Program label="Xlock" icon="/usr/share/pixmaps/puppy/screen_lock.svg" tooltip="Lock screen">puplock -locknow</Program>
+</Menu>
+<Menu label="Setup" icon="configuration48.png" height="24">
+<Program label="Puppy Setup" icon="/usr/share/pixmaps/puppy/puppy_config.svg" tooltip="Configure your Puppy OS">/usr/local/jwmdesk/wizardwizard</Program>
+ <Separator/> 
+<Program label="Gestor de paquetes Synaptic" icon="synaptic" tooltip="Instalar, desinstalar y actualizar los paquetes de software">synaptic-pkexec</Program>
+<Program label="Package manager (Legacy)" icon="/usr/share/pixmaps/puppy/package_add.svg" tooltip="Install/uninstall apps">/usr/local/petget/pkg_chooser.sh</Program>
+<Program label="PupControl | centro de control" icon="/usr/local/PupControl/icons/control-panel_48.png" tooltip="Control panel">PupControl</Program>
+<Program label="Pupswap" icon="/usr/share/pixmaps/puppy/dialog-question.svg" tooltip="Create, prepare and mount swap files">mdview /usr/share/doc/swap.md</Program>
+<Program label="QuickSetup" icon="/usr/share/pixmaps/puppy/puppy_config.svg" tooltip="First-run setup of resolution, country and network">quicksetup</Program>
+<Program label="SFS-Load" icon="squashfs-image.png" tooltip="SFS file loader">sfs_load</Program>
+<Program label="Set default apps" icon="/usr/share/pixmaps/puppy/execute_inspect.svg" tooltip="Select default applications">puppyapps</Program>
+<Program label="Wine Control Panel" icon="/usr/share/pixmaps/wine-control.png" tooltip="Wine Control Panel">wine control</Program>
+ <Separator/> 
+<Program label="CUPS print manager" icon="/usr/share/pixmaps/puppy/print.svg" tooltip="Configure printer in the CUPS web interface">cups_shell</Program>
+<Program label="Internet connection wizard" icon="/usr/share/pixmaps/puppy/internet_connect.svg" tooltip="Select internet connection manager">connectwizard</Program>
+<Program label="Menu manager" icon="/usr/share/pixmaps/puppy/menu.svg" tooltip="Configure the main menu">menumanager</Program>
+<Program label="Touchpad manager" icon="/usr/share/pixmaps/psynclient.svg" tooltip="Configure your synaptics touchpad">psynclient</Program>
+ <Separator/> 
+<Program label="FrugalPup installers" icon="gnibbles.png" tooltip="Puppy Linux frugal installers">frugalpup-installers</Program>
+<Program label="Grub2-Configuración de cargador de arranque" icon="/usr/share/pixmaps/gnibbles2.png" tooltip="Grub2 bootloader config">grub2config</Program>
+<Program label="Grub4Dos-Configuración de cargador de arranque" icon="/usr/share/pixmaps/puppy/install.svg" tooltip="Grub4Dos bootloader config">grub4dosconfig</Program>
+<Program label="Puppy-Instalador" icon="/usr/share/pixmaps/puppy/power.svg" tooltip="Install OS and applications">/usr/sbin/dotpup1</Program>
+<Program label="Remaster Puppy (Classic)" icon="/usr/share/pixmaps/puppy/puppy_remaster.svg" tooltip="Remaster ISO or base SFS">/usr/sbin/nicOS-Remaster-Classic</Program>
+<Program label="Remove builtin packages" icon="/usr/share/pixmaps/puppy/package_remove.svg" tooltip="Remove builtin packages">/usr/sbin/remove_builtin</Program>
+</Menu>
+<Separator/>
+<Menu label="Utility" icon="utility48.png" height="24">
+<Program label="Diffuse utillaje de textos" icon="io.github.mightycreak.Diffuse.svg" tooltip="Un utillaje para juntar y comparar archivos de texto">diffuse</Program>
+<Program label="GtkHash" icon="org.gtkhash.gtkhash" tooltip="Calcular resúmenes de mensajes o sumas de comprobación">gtkhash</Program>
+<Program label="ListDD" icon="/usr/local/ListDD/icons/listdd.svg" tooltip="List dynamic dependencies">listdd_wrapper</Program>
+<Program label="PackIt" icon="PackIt" tooltip="GUI Archivar/Comprimir">packit</Program>
+<Program label="Parcellite" icon="parcellite.xpm" tooltip="Lightweight GTK+ clipboard manager">parcellite</Program>
+<Program label="PeasyDiff" icon="/usr/share/pixmaps/peasydiff.png" tooltip="compare two files/folders">peasydiff</Program>
+<Program label="UExtract" icon="UExtract" tooltip="Extractor de última generación">/usr/local/apps/UExtract/AppRun</Program>
+<Program label="UrxvtControl | configure terminal" icon="/usr/local/UrxvtControl/icons/urxvtcontrol.svg" tooltip="Urxvt configuration">urxvtcontrol</Program>
+<Program label="Wine Config" icon="/usr/share/pixmaps/winecfg.png" tooltip="Wine Configure GUI">wine winecfg</Program>
+<Program label="Wine console" icon="/usr/share/pixmaps/wine-console.png">wine start</Program>
+<Program label="Xarchiver" icon="xarchiver" tooltip="Un gestor de archivos comprimidos basado solo en GTK+">xarchiver</Program>
+<Program label="Xdelta" icon="/usr/share/pixmaps/puppy/file_compare.svg" tooltip="File difference manager">xdelta_gui</Program>
+<Program label="nicOS-Utility-Suite" icon="/usr/local/lib/X11/pixmaps/nicOS.png" tooltip="nicOS-Utility-Suite">/usr/sbin/nicOS-Utility-Suite</Program>
+<Program label="pRun" icon="/usr/local/prun/icons/prun48.png" tooltip="Run dialog utility">prun</Program>
+<Program label="pupMd5sum MD5sum" icon="/usr/share/pixmaps/hash.xpm" tooltip="pupMd5sum MD5sum">pupmd5sum.sh</Program>
+ <Separator/> 
+<Program label="MoManager" icon="/usr/share/pixmaps/puppy/country_language.svg" tooltip="Create non-English translations">momanager</Program>
+ <Separator/> 
+<Program label="Grsync" icon="grsync.png" tooltip="Sincronizar archivos y carpetas (un IGU GTK+ para rsync)">/usr/bin/grsync -i</Program>
+<Program label="Pudd" icon="/usr/share/pixmaps/puppy/copy_disk.svg" tooltip="Copy complete drive/partition">Pudd</Program>
+<Program label="Pupsave Backup" icon="/usr/share/pixmaps/puppy/copy_disk.svg" tooltip="Quick backup of your Puppy savefiles">pupsave-backup</Program>
+<Program label="Resize personal storage" icon="/usr/share/pixmaps/puppy/puppy_increase.svg" tooltip="Resize the personal storage file">resizepfile.sh</Program>
+<Program label="pMirror" icon="/usr/share/pixmaps/puppy/directory_execute.svg" tooltip="Syncronize a backup directory">pmirror</Program>
+ <Separator/> 
+<Program label="Gexec" icon="/usr/share/pixmaps/puppy/execute.svg" tooltip="execute a command">gexec</Program>
+<Program label="LXTerminal" icon="/usr/share/pixmaps/puppy/terminal.svg" tooltip="Utilice la línea de órdenes">lxterminal</Program>
+<Program label="URxvt" icon="urxvt_48x48.xpm" tooltip="Use the command line">urxvt</Program>
+</Menu>
+<Menu label="Filesystem" icon="folder48.png" height="24">
+<Program label="Graphical Disk Map" icon="gdmap_icon" tooltip="Mostrar la utilización de disco usando Treemaps">gdmap -f /</Program>
+<Program label="MMview" icon="fileview" tooltip="File content viewer">mm_view</Program>
+ <Separator/> 
+<Program label="ROX-Filer" icon="/usr/share/pixmaps/puppy/open.svg" tooltip="File manager">rox</Program>
+<Program label="Wine File Manager" icon="/usr/share/pixmaps/wine-file.png" tooltip="Wine file manager">wine winefile</Program>
+<Program label="Xfe" icon="xfe" tooltip="Un gestor de archivos ligero para X Window">xfe</Program>
+ <Separator/> 
+<Program label="FileMnt" icon="/usr/share/pixmaps/puppy/cdrom.svg" tooltip="Unmount disk image files">filemnt -manager</Program>
+<Program label="Pmount" icon="/usr/share/pixmaps/puppy/harddisk.svg" tooltip="Mount/unmount partitions">pmount</Program>
+<Program label="PupMTP" icon="/usr/share/pixmaps/mtp_device.svg" tooltip="Manage files from an attached MTP device">pupmtp</Program>
+ <Separator/> 
+<Program label="FSearch" icon="io.github.cboxdoerfer.FSearch" tooltip="Herramienta de búsqueda centrada en la velocidad y con prestaciones avanzadas">fsearch</Program>
+<Program label="Synapse" icon="/usr/share/icons/hicolor/scalable/apps/synapse.svg" tooltip="Search everything you do">/usr/bin/synapse</Program>
+<Program label="Synapse update" icon="/usr/share/icons/hicolor/scalable/apps/synapse.svg" tooltip="Update Synapse file database">/usr/sbin/updatedb.plocate</Program>
+<Program label="pFind" icon="/usr/share/pixmaps/puppy/find.svg" tooltip="Buscador de Archivos">pfind</Program>
+ <Separator/> 
+<Program label="MultiRename" icon="multirename" tooltip="Batch file renamer">multirename</Program>
+<Program label="Partview" icon="/usr/share/pixmaps/puppy/partition.svg" tooltip="Show size and free space of partitions">partview</Program>
+</Menu>
+<Menu label="Graphic" icon="paint48.png" height="24">
+<Program label="mtPaint" icon="mtpaint.png" tooltip="Painting program to create pixel art and manipulate digital photos">mtpaint</Program>
+ <Separator/> 
+<Program label="Viewnior" icon="viewnior" tooltip="Un visor de imágenes elegante">viewnior</Program>
+ <Separator/> 
+<Program label="Escáner de documentos" icon="org.gnome.SimpleScan.svg" tooltip="Hacer una copia digital de sus fotos y documentos">simple-scan</Program>
+ <Separator/> 
+<Program label="Gcolor3" icon="/usr/share/icons/hicolor/scalable/apps/nl.hjdskes.gcolor3.svg" tooltip="Color picker">gcolor3</Program>
+<Program label="PeasyGlue" icon="/usr/share/pixmaps/peasyglue48.png" tooltip="Image joiner">peasyglue</Program>
+<Program label="PeasyPrint" icon="/usr/share/pixmaps/peasyprint.png" tooltip="Graphic/photo printing">/usr/sbin/peasyprint</Program>
+<Program label="PeasyScale" icon="/usr/share/pixmaps/peasyscale.png" tooltip="Graphic resizer">peasyscale</Program>
+<Program label="PupSnap capturar pantalla" icon="/usr/local/PupSnap/icons/pupsnap.svg" tooltip="PupSnap capturar pantalla">PupSnap</Program>
+<Program label="ScreenLiner " icon="/usr/share/pixmaps/screenliner.svg" tooltip="Draw lines on screen">screenliner</Program>
+<Program label="Take a Gif!" icon="/usr/local/takeagif/usr/share/pixmaps/camera-photo.png" tooltip="Screenshot utility">tkagif</Program>
+<Program label="Take a Shot!" icon="/usr/share/pixmaps/puppy/photocamera.svg" tooltip="Screenshot utility">tas</Program>
+</Menu>
+<Menu label="Document" icon="word48.png" height="24">
+<Program label="AbiWord" icon="abiword" tooltip="Procesador de textos Abiword">abiword</Program>
+<Program label="CherryTree" icon="cherrytree" tooltip="Gestor de notas jerárquico">cherrytree --new_window</Program>
+<Program label="Xournal++" icon="com.github.xournalpp.xournalpp" tooltip="Notes and PDF annotation">xournalpp</Program>
+<Program label="Xpad" icon="xpad" tooltip="Sticky notes">xpad</Program>
+<Program label="Wine Wordpad" icon="/usr/share/pixmaps/wine-word.png" tooltip="Wine Wordprocessor">wine write</Program>
+ <Separator/> 
+<Program label="Geany" icon="geany" tooltip="Un IDE rápido y ligero para GTK+">geany</Program>
+<Program label="L3afpad" icon="l3afpad" tooltip="Editor de texto simple">l3afpad</Program>
+<Program label="Wine Notepad" icon="/usr/share/pixmaps/wine-notepad.png" tooltip="Wine Text Editor">wine notepad</Program>
+ <Separator/> 
+<Program label="qpdfview" icon="qpdfview.svg" tooltip="Tabbed document viewer">qpdfview --unique</Program>
+<Program label="DocuPrint" icon="/usr/share/pixmaps/puppy/print_yes.svg" tooltip="CUPS document printing">gtklp</Program>
+<Program label="Pdict" icon="/usr/share/pixmaps/puppy/book_dictionary.svg" tooltip="Online dictionary">pdict</Program>
+<Program label="PeasyPDF" icon="/usr/share/pixmaps/peasypdf.png" tooltip="Manipulate PDF documents">peasypdf</Program>
+<Program label="mdview" icon="/usr/share/pixmaps/puppy/dialog-question.svg" tooltip="A simple markdown document viewer">mdview /usr/share/doc/mdview.md</Program>
+<Program label="puppyPDF" icon="/usr/share/pixmaps/puppy/pdf.svg" tooltip="Convert file to PDF">puppypdf</Program>
+</Menu>
+<Menu label="Business" icon="spread48.png" height="24">
+<Program label="ExpenseTracker" icon="currency_dollar" tooltip="Tag based personal expense tracker">ExpenseTracker</Program>
+<Program label="Gnumeric" icon="gnumeric" tooltip="Cálculo, análisis, y visualización de información">gnumeric</Program>
+ <Separator/> 
+<Program label="Galculator" icon="galculator.xpm" tooltip="Realizar cálculos sencillos y científicos">galculator</Program>
+<Program label="gMeasures" icon="calculator" tooltip="Weights and measures converter">gmeasures</Program>
+</Menu>
+<Menu label="Personal" icon="date48.png" height="24">
+<Program label="Figaro's Password Manager 2" icon="fpm2" tooltip="Figaro's Password Manager 2">fpm2</Program>
+ <Separator/> 
+<Program label="Osmo" icon="osmo" tooltip="Personal Organizer">osmo-wrapper</Program>
+ <Separator/> 
+<Program label="MagDock" icon="magdock" tooltip="A Screen Magnifier Dock">magdock</Program>
+<Program label="Trans_tray (translation program)" icon="/usr/share/pixmaps/trans_tray.png" tooltip="Translation program">trans_tray</Program>
+<Program label="Virtual Keyboard" icon="/usr/share/pixmaps/puppy/keyboard_shortcut.svg" tooltip="xvkbd - Virtual Keyboard">xkeyboard-wrapper</Program>
+</Menu>
+<Menu label="Network" icon="connect48.png" height="24">
+<Program label="My traceroute" icon="mtr" tooltip="Network diagnostic tool">mtr -g</Program>
+<Program label="PeasyPort" icon="/usr/share/pixmaps/peasyport.svg" tooltip="Network port scanner">peasyport</Program>
+<Program label="Samba Simple Management" icon="/usr/share/pixmaps/samba/network.svg" tooltip="Samba Simple Management">samba.sh</Program>
+<Program label="YASSM Samba share mounter" icon="/usr/share/pixmaps/yassm.png" tooltip="Mounts Samba shares">yassm</Program>
+<Program label="YASSM Samba share search" icon="/usr/share/pixmaps/yassm.png" tooltip="Yet another Samba share mounter">/usr/local/yassm/yassm-search</Program>
+ <Separator/> 
+<Program label="Firewall Setup" icon="/usr/share/pixmaps/puppy/firewall.svg" tooltip="Firewall Setup">firewall_ng</Program>
+ <Separator/> 
+<Program label="PureFTPd" icon="/usr/share/pixmaps/puppy/network.svg" tooltip="FTP server">run-pureftpd</Program>
+</Menu>
+<Menu label="Internet" icon="www48.png" height="24">
+<Program label="gFTP" icon="Internet-transfer.svg" tooltip="graphical ftp client">gftp</Program>
+ <Separator/> 
+<Program label="Browsers" icon="/usr/share/pixmaps/puppy/dialog-question.svg" tooltip="Web browser options">mdview /usr/share/doc/browsers.md</Program>
+<Program label="Firefox ESR" icon="/usr/share/pixmaps/firefox_esr.png" tooltip="Firefox web browser">/usr/bin/firefox_esr</Program>
+<Program label="Firefox ESR (run as spot)" icon="/usr/share/pixmaps/firefox_esr.png" tooltip="Run Firefox web browser as restricted user (spot)">run-as-spot /opt/FirefoxESR-portable64/firefox64/firefox</Program>
+<Program label="TLDR Pages" icon="/usr/share/pixmaps/puppy/dialog-info.svg" tooltip="Online manual of Linux commands">defaultbrowser https://tldr.inbrowser.app</Program>
+ <Separator/> 
+<Program label="WeeChat" icon="weechat" tooltip="Extensible chat client">rxvt -title 'WeeChat' -e sh -c 'weechat'</Program>
+ <Separator/> 
+<Program label="Claws Mail" icon="claws-mail" tooltip="Cliente de correo rápido y ligero basado en GTK">claws-mail</Program>
+ <Separator/> 
+<Program label="PMirrorget" icon="/usr/share/pixmaps/puppy/install.svg" tooltip="Website File Grabber">pmwget</Program>
+<Program label="Transmission" icon="transmission" tooltip="Descargue y comparta archivos mediante BitTorrent">transmission-gtk</Program>
+<Program label="uGet" icon="uget-icon.svg" tooltip="Download Manager">env GDK_BACKEND=x11 uget-gtk</Program>
+ <Separator/> 
+<Program label="PuTTY SSH Client" icon="putty.svg" tooltip="Connect to an SSH server with PuTTY">putty</Program>
+ <Separator/> 
+<Program label="Pup-Advert-Blocker" icon="/usr/share/pixmaps/puppy/dialog_stop.svg" tooltip="Blocks many online adverts">pup-advert-blocker</Program>
+</Menu>
+<Menu label="Multimedia" icon="multimedia48.png" height="24">
+<Program label="DeaDBeeF" icon="deadbeef" tooltip="Listen to music">/opt/deadbeef/bin/deadbeef</Program>
+<Program label="Simple GTK Radio" icon="/usr/local/simplegtkradio/data/radiotray.png" tooltip="Play online streams">simplegtkradio</Program>
+ <Separator/> 
+<Program label="Audacity" icon="audacity" tooltip="Grabar y editar archivos de audio">env GDK_BACKEND=x11 audacity</Program>
+<Program label="Celuloide" icon="io.github.celluloid_player.Celluloid.svg" tooltip="Reproduce películas y vídeos">celluloid</Program>
+<Program label="EasyTAG" icon="easytag.svg" tooltip="Editar los metadatos de archivos de sonido">easytag</Program>
+<Program label="QWinFF" icon="qwinff.png" tooltip="Convertir entre formados de archivos">qwinff</Program>
+<Program label="SMPlayer" icon="smplayer" tooltip="MPV front-end">smplayer</Program>
+<Program label="SimpleScreenRecorder" icon="simplescreenrecorder.svg" tooltip="A feature-rich screen recorder that supports X11 and OpenGL">simplescreenrecorder --logfile</Program>
+<Program label="mhWaveEdit" icon="/usr/share/pixmaps/puppy/edit_sound.svg" tooltip="audio recorder/editor">mhwaveedit</Program>
+<Program label="mpv" icon="mpv.svg" tooltip="Reproduzca vídeos y canciones">mpv --player-operation-mode=pseudo-gui</Program>
+ <Separator/> 
+<Program label="Control de volumen de PulseAudio" icon="/usr/share/pixmaps/puppy/sound_mixer.svg" tooltip="Ajustar el nivel de volumen">pavucontrol</Program>
+ <Separator/> 
+<Program label="guvcview" icon="/usr/share/pixmaps/guvcview/guvcview.png" tooltip="Un visualizador y capturador de vídeo para el controlador UVC de Linux">guvcview</Program>
+ <Separator/> 
+<Program label="CD/DVD burner" icon="/usr/share/pixmaps/puppy/cd_burn.svg" tooltip="Burn iso to CD/DVD">burniso2cd</Program>
+<Program label="ISOMaster" icon="/usr/share/pixmaps/puppy/cdrom.svg" tooltip="Leer, escribir i modificar imagenes ISO">isomaster</Program>
+<Program label="Pburn Grabador de CD/DVD/Blu-ray" icon="/usr/share/icons/hicolor/scalable/apps/pburn.svg" tooltip="CD/DVD/Blu-ray writer">pburn</Program>
+</Menu>
+<Menu label="Fun" icon="games48.png" height="24">
+<Program label="Hexalate" icon="/usr/share/pixmaps/hexalate.xpm" tooltip="Gire los círculos para hacer coincidir los colores">hexalate</Program>
+<Program label="Simsu" icon="/usr/share/pixmaps/simsu.xpm" tooltip="Escriba números para resolver rompecabezas">simsu</Program>
+<Program label="Solitaire" icon="/usr/share/pixmaps/puppy/game_card.svg" tooltip="Online solitaire">/usr/local/bin/solitaire</Program>
+<Program label="Wine Mine-Sweeper" icon="/usr/share/pixmaps/minesweeper.png" tooltip="Wine Mine">wine winemine</Program>
+<Program label="gPlanarity" icon="/usr/share/pixmaps/gPicon.png" tooltip="Puzzle game involving untangling planar graphs">gplanarity</Program>
+ <Separator/> 
+<Program label="PicPuz" icon="picpuz.png" tooltip="jigsaw puzzle">picpuz</Program>
+<Program label="Rubix" icon="/usr/share/pixmaps/rubix.png" tooltip="Rubix cube">rubix</Program>
+<Program label="iQPuzzle" icon="/usr/share/pixmaps/iqpuzzle_64x64.png" tooltip="Pentomino puzzle">iqpuzzle</Program>
+</Menu>
+<Separator/>
+<Program label="Help" icon="help48.png">defaultbrowser /usr/share/doc/index.html</Program>
+<Program label="Leave" icon="shutdown48.png">/usr/sbin/logout_gui</Program>
+</RootMenu>
+
+<!-- General classes -->
+<Group>
+<Class>splashwindow</Class>
+<Option>nolist</Option>
+<Option>layer:above</Option>
+<Option>nopager</Option>
+<Option>nofocus</Option>
+</Group>
+
+<Group>
+<Class>applet</Class>
+<Option>layer:below</Option>
+<Option>noborder</Option>
+<Option>notitle</Option>
+<Option>sticky</Option>
+<Option>nolist</Option>
+<Option>nopager</Option>
+</Group>
+
+<Group>		<Class>ontop</Class>		<Option>layer:above</Option>		</Group>
+<Group>		<Class>maximized</Class>	<Option>maximized</Option>		</Group>
+<Group>		<Class>fullscreen</Class>	<Option>fullscreen</Option>		</Group>
+<Group>		<Class>nolist</Class>		<Option>nolist</Option>			</Group>
+<Group>		<Class>noborder</Class>		<Option>noborder</Option>		</Group>
+<Group>		<Class>notitle</Class>		<Option>notitle</Option>		</Group>
+<Group>		<Class>sticky</Class>		<Option>sticky</Option>			</Group>
+
+<!-- 130630 joe added support disable flashing in tray, all apps -->
+<Group>
+<Option>noturgent</Option>
+</Group>
+
+<Group>
+<Class>gtkdialog-splash</Class>
+<Option>nolist</Option>
+<!-- <Option>layer:above</Option> -->
+<Option>nofocus</Option>
+</Group>
+
+<!-- Styles -->
+<WindowStyle>
+<Font>DejaVu Sans-10</Font>
+<Width>3</Width>
+<Height>22</Height>
+<Foreground>#aaaaaa</Foreground>
+<Background>#fffa71:#ffda51</Background>
+<Corner>4</Corner>
+<Outline>gray70</Outline>
+<Active>
+<Foreground>black</Foreground>
+<Background>#ffda51:#ffa100</Background>
+<Outline>black</Outline>
+</Active>
+</WindowStyle>
+
+<PagerStyle>
+<Outline>black</Outline>
+<Foreground>#ffc100</Foreground>
+<Background>#ffc100</Background>
+<Active>
+<Foreground>#ff8100</Foreground>
+<Background>#ffa100</Background>
+</Active>
+</PagerStyle>
+
+<MenuStyle>
+<Font>DejaVu Sans-10</Font>
+<Foreground>black</Foreground>
+<Background>#ffda51</Background>
+<Active>
+<Foreground>black</Foreground>
+<Background>#ffda51:#ffa100</Background>
+</Active>
+</MenuStyle>
+
+<PopupStyle>
+<Font>DejaVu Sans-10</Font>
+<Outline>black</Outline>
+<Foreground>black</Foreground>
+<Background>yellow</Background>
+</PopupStyle>
+
+<!-- <Icons> -->
+<IconPath>/usr/share/pixmaps</IconPath>
+<IconPath>/usr/share/icons/hicolor/48x48/apps</IconPath>
+<IconPath>/usr/share/icons/hicolor/32x32/apps</IconPath>
+<IconPath>/usr/share/icons/hicolor/64x64/apps</IconPath>
+<IconPath>/usr/local/lib/X11/pixmaps</IconPath>
+<IconPath>/usr/local/share/pixmaps</IconPath>
+<IconPath>/usr/share/pixmaps/puppy</IconPath>
+<IconPath>/usr/share/icons/hicolor/scalable/apps</IconPath>
+<IconPath>/usr/local/lib/X11/mini-icons</IconPath>
+<IconPath>/var/lib/flatpak/exports/share/icons/hicolor/48x48/apps</IconPath>
+<IconPath>/var/lib/flatpak/exports/share/icons/hicolor/scalable/apps</IconPath>
+<!-- </Icons> -->
+
+<StartupCommand>xdg_autostart.sh</StartupCommand>
+
+<!-- Virtual Desktops -->
+<!-- Name tags can be contained within Desktops for desktop names.  BK: syntax change with jwm 500... -->
+<Desktops  width="3" height="1"/>
+
+<!-- Double click speed (in milliseconds) -->
+<DoubleClickSpeed>400</DoubleClickSpeed>
+
+<!-- Double click delta (in pixels) -->
+<DoubleClickDelta>3</DoubleClickDelta>
+
+<!-- The focus model (sloppy or click) -->
+<FocusModel>click</FocusModel>
+
+<!-- The snap mode (none, screen, or border) -->
+<SnapMode distance="10">border</SnapMode>
+
+<!-- The move mode (outline or opaque) -->
+<MoveMode>opaque</MoveMode>
+
+<!-- The resize mode (outline or opaque) -->
+<ResizeMode>opaque</ResizeMode>
+
+<!-- Key bindings -->
+<Key key="Up">up</Key>
+<Key key="Down">down</Key>
+<Key key="Right">right</Key>
+<Key key="Left">left</Key>
+<Key key="h">left</Key>
+<Key key="j">down</Key>
+<Key key="k">up</Key>
+<Key key="l">right</Key>
+<Key key="Return">select</Key>
+<Key key="Escape">escape</Key>
+
+<Key mask="4" key="Up">maximize</Key>
+<Key mask="4" key="Down">minimize</Key>
+<Key mask="4" key="Left">maxleft</Key>
+<Key mask="4" key="Right">maxright</Key>
+
+<Key mask="A" key="equal">maximize</Key>
+<Key mask="A" key="minus">minimize</Key>
+<Key mask="A" key="bracketleft">maxleft</Key>
+<Key mask="A" key="bracketright">maxright</Key>
+
+<Key mask="A" key="Tab">nextstacked</Key>
+<Key mask="AS" key="Tab">prevstacked</Key>
+<Key mask="A" key="F4">close</Key>
+<Key mask="CA" key="Right">rdesktop</Key>
+<Key mask="CA" key="Left">ldesktop</Key>
+<Key mask="CA" key="Up">udesktop</Key>
+<Key mask="CA" key="Down">ddesktop</Key>
+<Key mask="A" key="F1">root:3</Key>
+<Key mask="A" key="F2">exec:gexec</Key>
+<Key mask="A" key="F3">window</Key>
+<Key mask="CA" key="t">exec:defaultterminal</Key>
+
+<!-- Include external rc files -->
+<Include>/root/.jwmrc-tray</Include>
+<Include>/root/.jwmrc-tray2</Include>
+<Include>/root/.jwm/jwmrc-theme</Include>
+<Include>/root/.jwm/jwmrc-personal</Include>
+<Include>/root/.jwm/jwmrc-wallpaper</Include>
+<Include>/root/.jwm/jwmrc-places</Include>
+<Include>/root/.jwm/jwmrc-utilities</Include>
+</JWM>

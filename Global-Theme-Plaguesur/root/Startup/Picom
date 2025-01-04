@@ -1,0 +1,4 @@
+#!/bin/sh
+killall picom 2>/dev/null
+sleep 0.2
+exec picom --config /root/.config/picom/picom.conf 2>/dev/null

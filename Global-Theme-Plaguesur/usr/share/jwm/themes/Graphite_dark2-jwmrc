@@ -1,0 +1,63 @@
+<?xml version=1.0?>
+<JWM>	
+<TitleButtonOrder>ximtw</TitleButtonOrder>
+  <WindowStyle>
+	  <Opacity>0.90</Opacity>
+    <Font align="center">URWGothic-12:bold</Font>
+    <Width>4</Width>
+    <Height>28</Height>
+    <Corner>4</Corner>
+    <Foreground>#888888</Foreground>
+    <Background>#2C2C2C</Background>
+    <Outline>#4A4A4A</Outline>
+    <Active>
+      <Foreground>#E0E0E0</Foreground>
+      <Background>#2C2C2C</Background>
+      <Outline>#4A4A4A</Outline>
+    </Active>
+  </WindowStyle>
+
+  <TrayStyle>
+	  <Opacity>0.95</Opacity>
+    <Font>Sans-10</Font>
+    <Foreground>#ababab</Foreground>
+    <Background>#2C2C2C</Background>
+    <Outline>#2C2C2C</Outline>
+    <Active>
+      <Foreground>#E0E0E0</Foreground>
+      <Background>#424242</Background>
+    </Active>
+  </TrayStyle>
+
+  <PagerStyle>
+	  <Opacity>0.95</Opacity>
+    <Outline>grey</Outline>
+    <Foreground>#e8e8e8</Foreground>
+    <Background>#535353</Background>
+    <Active>
+      <Foreground>#1f2122</Foreground>
+      <Background>#393939</Background>
+    </Active>
+  </PagerStyle>
+
+  <PopupStyle>
+	  <Opacity>0.95</Opacity>
+    <Font>Sans-10</Font>
+    <Outline>#2C2C2C</Outline>
+    <Foreground>#E0E0E0</Foreground>
+    <Background>#171717</Background>
+  </PopupStyle>
+
+  <MenuStyle>
+	  <Opacity>0.90</Opacity>
+    <Font>Sans-10</Font>
+    <Foreground>#E0E0E0</Foreground>
+    <Background>#3C3C3C</Background>
+    <Outline>#4A4A4A</Outline>
+    <Active>
+      <Foreground>#424242</Foreground>
+      <Background>#E0E0E0</Background>
+    </Active>
+  </MenuStyle>
+
+</JWM>
