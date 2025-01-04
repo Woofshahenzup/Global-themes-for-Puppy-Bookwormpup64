@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<JWM> 
+<WindowStyle>
+	<Font>URWGothic-14:bold:normal</Font>
+	<Width>5</Width>
+	<Height>30</Height>
+	<Corner>0</Corner>
+	<Active>
+		<Foreground>#CFC39F</Foreground>
+		<Background>#2B3537</Background>
+		<Outline>#CFC39F</Outline>
+	</Active>
+	<Foreground>grey</Foreground>
+	<Background>#2B3537</Background>
+	<Outline>#fff</Outline>
+</WindowStyle>
+
+<TrayStyle>
+	<Font>URWGothic-12:bold:normal</Font>
+	<Foreground>#D2CFD2</Foreground>
+	<Background>#2B3537</Background>
+	<Outline>#EBDBB2</Outline>
+	<Active>
+		<Foreground>#2B3537</Foreground>
+		<Background>#CFC39F</Background>
+	</Active>
+</TrayStyle>
+
+<TrayButtonStyle>
+	<Font>URWGothic-12:bold:normal</Font>
+	<Foreground>red</Foreground>
+	<Background>#2B3537</Background>
+	<Outline>#EBDBB2</Outline>
+	<Active>
+		<Foreground>white</Foreground>
+		<Background>#2B3537</Background>
+	</Active>
+</TrayButtonStyle>
+
+<TaskListStyle>
+	<Font>URWGothic-12:bold:normal</Font>
+	<Foreground>#2B3537</Foreground>
+	<Background>#2B3537</Background>
+	<Outline>#EBDBB2</Outline>
+	<Active>
+		<Foreground>#2B3537</Foreground>
+		<Background>#44494A</Background>
+	</Active>
+</TaskListStyle>
+
+<PagerStyle>
+	<Font>neuropolitical-14:bold:normal</Font>
+	<Text>#EBDBB2</Text>	
+	<Outline>#EBDBB2</Outline>
+	<Foreground>#44494A</Foreground>
+	<Background>#2B3537</Background>
+	<Active>
+		<Foreground>#2B3537</Foreground>
+		<Background>#44494A</Background>
+	</Active>
+</PagerStyle>
+
+<PopupStyle delay="200">
+	<Font><Font>URWGothic-20:bold:normal</Font></Font>
+	<Outline>#EBDBB2</Outline>
+	<Foreground>#EBDBB2</Foreground>
+	<Background>#2B3537</Background>
+</PopupStyle>
+
+<MenuStyle>
+	<Font><Font>URWGothic-10:bold:normal</Font></Font>
+	<Foreground>#CFC39F</Foreground>
+	<Background>#2B3537</Background>
+	<Outline>#EBDBB2</Outline>
+	<Active>
+		<Foreground>#EBDBB2</Foreground>
+		<Background>#626364</Background>
+	</Active>
+</MenuStyle>
+
+	<ClockStyle>
+		<Font>neuropolitical-12:bold:normal</Font>
+		<Foreground>#EBDBB2</Foreground>
+	</ClockStyle>
+</JWM>
+
+
+

@@ -1,0 +1,53 @@
+<svg width="48" height="48" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter1045" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<g transform="matrix(1.4816 0 0 1.4798 .036955 1.0852)" fill-rule="evenodd" filter="url(#filter1045)">
+<path d="m4.5515 3.997h21.904c0.51162 0 0.92353 0.34219 0.92353 0.76723l1.6111 21.96 0.0084 1.5087c-1.07e-4 0.42506-0.41201 0.76724-0.92363 0.76724h-25.144c-0.51164 0-0.92353-0.34219-0.92353-0.76724l-0.00742-1.3926 1.6269-22.075c0-0.42505 0.4119-0.76723 0.92353-0.76723z" color="#000000" fill="#d3d7cf" fill-opacity=".99608" stroke-width="1.7929"/>
+<rect x="2.3973" y="27.411" width="26.205" height="1.5882" rx=".45594" ry=".35129" color="#000000" fill="#a4a4a4" stroke-width="1.6909"/>
+<path d="m2.3768 27.757s0.10128-0.35001 0.47266-0.37916h25.219c0.50641 0 0.54019 0.49583 0.54019 0.49583s0.01588-1.0688-0.86194-1.0688h-24.447c-0.67524 0.05833-0.92479 0.5147-0.92479 0.95218z" color="#000000" fill="#fff" stroke-width="1.8005"/>
+<path d="m3.5852 4.5501-0.17246 3.2936s0.21558-0.8439 0.68983-0.8439h22.851c0.48505-0.011715 0.5066 0.23441 0.59284 0.62122l-0.17248-2.9068c-0.021551-0.41025-0.15089-0.71498-0.53894-0.71498h-22.69c-0.31259 0-0.52815 0.25787-0.56049 0.55089z" color="#000000" fill="#a3a4a0" stroke-width="1.8891"/>
+</g>
+<path d="m7.3558 7.471h30.462c0.70645 0 1.2752-0.14671 1.2752 0.45733l2.2247 31.839 0.09802 2.6129c0 0.60402-0.13633 0.62138-0.84281 0.62138h-36.102c-0.40378 0-0.41039-0.10261-0.41039-0.4935l-0.010196-2.5758 2.2466-31.972c0-0.60402 0.3547-0.48748 1.0612-0.48748z" color="#000000" fill="none" filter="url(#filter1045)" opacity=".4386" stroke-width="2.6279"/>
+<g fill-rule="evenodd">
+<rect x="7" y="13" width="31" height="2" color="#000000" filter="url(#filter1045)" opacity=".2807" stroke-width="3.9207"/>
+<rect x="7" y="5" width="3" height="5" rx="1.5" ry="1" color="#000000" fill="#fce94f" filter="url(#filter1045)" stroke-width="2.7387"/>
+<g stroke-width="3.9207">
+<rect x="7" y="23" width="31" height="2" color="#000000" filter="url(#filter1045)" opacity=".2807"/>
+<rect x="7" y="26" width="31" height="2" color="#000000" filter="url(#filter1045)" opacity=".2807"/>
+<rect x="7" y="29" width="31" height="2" color="#000000" filter="url(#filter1045)" opacity=".2807"/>
+</g>
+<rect x="7" y="32" width="10" height="2" color="#000000" filter="url(#filter1045)" opacity=".2807" stroke-width="3.303"/>
+<g transform="matrix(1.4691 0 0 1.4615 .061865 1.6154)" filter="url(#filter1045)" stroke-width="1.7136">
+<path d="m25.489 14.418s0.92493 0.05782 1.2869 0.82873c0.37286 0.7942 0 1.6382 0 1.6382l3.2373-1.5226s0.93428-0.54357 0.42224-1.7539c-0.50502-1.1937-1.7292-0.71311-1.7292-0.71311z" color="#000000" fill="#ce1313"/>
+<path d="m25.489 14.418s0.92493 0.05782 1.2869 0.82873c0.37286 0.7942 0 1.6382 0 1.6382l1.2869-0.61674s0.53214-0.81339 0.14074-1.6575c-0.40215-0.86728-1.4276-0.80947-1.4276-0.80947z" color="#000000" fill="#c1c1c1"/>
+<path d="m12.903 21.684 2.8955-2.7752c0.96515 0.5011 1.4678 1.3298 1.2064 2.2935z" color="#000000" fill="#e7e2b8"/>
+<path d="m13.802 20.836-1.0797 0.96321 1.4808-0.27814c0.14074-0.44327-0.05927-0.55015-0.40108-0.68507z" color="#000000"/>
+<path d="m15.799 18.915c0.41287 0.18082 0.83862 0.66463 0.93716 0.77092 0.09855 0.10629 9.9893-4.54 9.9893-4.54-0.28595-0.52795-0.81262-0.68206-1.2383-0.72994 0 0-9.7817 4.4579-9.6882 4.499z" color="#000000" fill="#deb873"/>
+<path d="m16.998 21.187 0.07973-0.39685 9.8383-4.4102s-0.07091 0.41562-0.13893 0.49932z" color="#000000" fill-opacity=".36364"/>
+<path d="m17.066 20.814s0.04143-0.28551-0.07303-0.63208c-0.11096-0.33601-0.25032-0.48753-0.25032-0.48753l9.9776-4.5696c0.22929 0.33734 0.24945 0.94713 0.19559 1.262z" color="#000000" fill="#cb9022"/>
+</g>
+</g>
+<g fill="#fce94f" fill-rule="evenodd" stroke-width="2.7387">
+<rect x="12" y="5" width="3" height="5" rx="1.5" ry="1" color="#000000" filter="url(#filter1045)"/>
+<rect x="17" y="5" width="3" height="5" rx="1.5" ry="1" color="#000000" filter="url(#filter1045)"/>
+<rect x="22" y="5" width="3" height="5" rx="1.5" ry="1" color="#000000" filter="url(#filter1045)"/>
+<rect x="27" y="5" width="3" height="5" rx="1.5" ry="1" color="#000000" filter="url(#filter1045)"/>
+<rect x="32" y="5" width="3" height="5" rx="1.5" ry="1" color="#000000" filter="url(#filter1045)"/>
+<rect x="37" y="5" width="3" height="5" rx="1.5" ry="1" color="#000000" filter="url(#filter1045)"/>
+</g>
+<rect x="7" y="16" width="31" height="2" color="#000000" fill-rule="evenodd" filter="url(#filter1045)" opacity=".2807" stroke-width="3.9207"/>
+<rect x="7" y="19" width="15" height="2" color="#000000" fill-rule="evenodd" filter="url(#filter1045)" opacity=".2807" stroke-width="2.7273"/>
+</svg>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 48 48"
+   width="48"
+   height="48"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="container_4.svg"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="8.6770834"
+     inkscape:cx="21.839136"
+     inkscape:cy="13.887155"
+     inkscape:window-width="1912"
+     inkscape:window-height="1022"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10" />
+  <defs
+     id="defs3051">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#eff0f1;
+      }
+      </style>
+  </defs>
+  <g
+     id="g25061"
+     transform="matrix(2.4999998,0,0,2.4999998,-5.9999976,-7.2499975)">
+    <rect
+       style="opacity:1;fill:#2ecc71;fill-opacity:1;stroke:#2d3136;stroke-width:0;stroke-linecap:round;stroke-opacity:0.859511"
+       id="rect9257"
+       width="2"
+       height="2"
+       x="15"
+       y="14.813438" />
+    <path
+       id="rect853"
+       style="opacity:1;fill:#eff0f1;fill-opacity:1;stroke:#2d3136;stroke-width:0;stroke-linecap:round;stroke-opacity:0.859511"
+       d="M 4,5 V 20 H 20 V 5 Z M 5,8 H 19 V 19 H 5 Z" />
+    <rect
+       style="opacity:1;fill:#2ecc71;fill-opacity:1;stroke:#2d3136;stroke-width:0;stroke-linecap:round;stroke-opacity:0.859511"
+       id="rect9074"
+       width="2"
+       height="2"
+       x="7"
+       y="14.813438" />
+    <rect
+       style="opacity:1;fill:#2ecc71;fill-opacity:1;stroke:#2d3136;stroke-width:0;stroke-linecap:round;stroke-opacity:0.859511"
+       id="rect9158"
+       width="2"
+       height="2"
+       x="7"
+       y="12" />
+    <rect
+       style="opacity:1;fill:#2ecc71;fill-opacity:1;stroke:#2d3136;stroke-width:0;stroke-linecap:round;stroke-opacity:0.859511"
+       id="rect9160"
+       width="2"
+       height="2"
+       x="7"
+       y="9" />
+    <rect
+       style="opacity:1;fill:#2ecc71;fill-opacity:1;stroke:#2d3136;stroke-width:0;stroke-linecap:round;stroke-opacity:0.859511"
+       id="rect9251"
+       width="2"
+       height="2"
+       x="11"
+       y="14.813438" />
+    <rect
+       style="opacity:1;fill:#2ecc71;fill-opacity:1;stroke:#2d3136;stroke-width:0;stroke-linecap:round;stroke-opacity:0.859511"
+       id="rect9253"
+       width="2"
+       height="2"
+       x="11"
+       y="12" />
+    <rect
+       style="opacity:1;fill:#2ecc71;fill-opacity:1;stroke:#2d3136;stroke-width:0;stroke-linecap:round;stroke-opacity:0.859511"
+       id="rect9255"
+       width="2"
+       height="2"
+       x="11"
+       y="9" />
+    <rect
+       style="opacity:1;fill:#2ecc71;fill-opacity:1;stroke:#2d3136;stroke-width:0;stroke-linecap:round;stroke-opacity:0.859511"
+       id="rect9259"
+       width="2"
+       height="2"
+       x="15"
+       y="12" />
+    <rect
+       style="opacity:1;fill:#2ecc71;fill-opacity:1;stroke:#2d3136;stroke-width:0;stroke-linecap:round;stroke-opacity:0.859511"
+       id="rect9261"
+       width="2"
+       height="2"
+       x="15"
+       y="9" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:5.33333px;line-height:1.25;font-family:Monsterchild;-inkscape-font-specification:Monsterchild"
+     x="6.544827"
+     y="6.5792189"
+     id="text20755"><tspan
+       sodipodi:role="line"
+       id="tspan20753"
+       x="6.544827"
+       y="6.5792189" /></text>
+</svg>

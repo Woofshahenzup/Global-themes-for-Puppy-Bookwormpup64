@@ -1,0 +1,37 @@
+#!/bin/bash
+
+LANG=C
+probedisk -type > /tmp/.usb-drive-log-probedisk
+
+echo '<JWM>'
+while read a b c d
+do
+        PARTITION=$d
+        DRIVE="${d%[0-9]}"
+        DRIVE="${DRIVE%[0-9]}"
+        DRIVE="${DRIVE%[0-9]}"
+        DRIVE=${DRIVE%p}
+    case $PARTITION in
+    sd[a-z][0-9]*|nvme[0-9]n[0-9]p[0-9]*)
+        [ $c -le 1 ] && continue # extd partition
+        [ "$(swapon -s | grep -o "$PARTITION ")" ] && continue # swap partition
+        [ "$(grep "$DRIVE" /tmp/.usb-drive-log-probedisk 2>/dev/null | grep 'usbdrv')" ] && MEDIA="usbdrv" || MEDIA="drive"
+        SIZE=$(grep '<Summary>' $HOME/.pup_event/drive_${PARTITION}/AppInfo.xml | grep -o "Size.*<" | cut -d':' -f2- | cut -d'<' -f1)
+        ;;
+    scd*|sr*)
+        if [ -d "/tmp/pup_event_frontend/drive_${PARTITION}" ];then
+            MEDIA="optical"
+        else
+            continue
+        fi
+        ;;
+    mmc*)
+        MEDIA="card"
+        ;;
+    *)
+        continue
+        ;;
+    esac
+    echo "<Program label=\"${PARTITION} ${SIZE}\" icon=\"/usr/local/lib/X11/pixmaps/${MEDIA}48.png\">/tmp/pup_event_frontend/drive_${PARTITION}/AppRun</Program>"
+done < /proc/partitions
+echo '</JWM>'

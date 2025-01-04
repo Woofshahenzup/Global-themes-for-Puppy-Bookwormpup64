@@ -1,0 +1,16 @@
+# -- THEME AUTO-WRITTEN BY gtk-theme-switch2 DO NOT EDIT
+include "/usr/share/themes/Nordic-bluish-accent/gtk-2.0/gtkrc"
+
+style "user-font"
+{
+  font_name="OpenSansEmoji 12"
+}
+widget_class "*" style "user-font"
+
+include "/root/.gtkrc-2.0.mine"
+
+# -- THEME AUTO-WRITTEN BY gtk-theme-switch2 DO NOT EDIT
+gtk-theme-name = "Nordic-bluish-accent"
+gtk-toolbar-style = GTK_TOOLBAR_BOTH
+gtk-toolbar-icon-size = GTK_ICON_SIZE_LARGE_TOOLBAR
+gtk-icon-theme-name = "Bonny-Dark-Icons"

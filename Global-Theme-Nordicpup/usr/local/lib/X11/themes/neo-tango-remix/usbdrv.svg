@@ -1,0 +1,23 @@
+<svg width="48" height="48" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter947" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter959" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="SourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<path d="m13.293 10c-0.53762 0-0.89292 0.29939-1.1079 0.84364l-5.953 16.813c-0.04595 0.12978-0.03723 0.22344-0.06596 0.34243h35.745c-0.0066-0.032 0.0018-0.06138-0.0088-0.0943l-6.1596-16.923c-0.15872-0.50329-0.56498-0.97089-0.98483-0.98261z" fill="#8e8e8e" filter="url(#filter959)" opacity=".9" stroke-width="2.3915"/>
+<path d="m12.889 11.008c-0.53762 0-0.88706 0.25263-1.1021 0.73456l-5.5642 14.89s-0.21503 0.58464-0.21503 1.5508v8.4014c0 0.94251 0.5658 1.4147 1.4247 1.4147h33.171c0.84714 0 1.3709-0.62524 1.3709-1.6052v-8.4014s0.09114-0.67072-0.08064-1.1426l-5.7794-14.972c-0.15874-0.44567-0.54786-0.86022-0.96771-0.8706z" fill="none" stroke-width="2.2505"/>
+<path d="m13.196 11.403c-0.51757 0-0.85398 0.24321-1.061 0.70718-2e-6 0-5.518 14.444-5.518 14.444s-0.20703 0.56284-0.20703 1.4929v8.0878c0 1.1794 0.38197 1.4164 1.3715 1.4164h32.417c1.1381 0 1.3198-0.27545 1.3198-1.5997v-8.0878s0.08774-0.6457-0.07764-1.1l-5.6712-14.631c-0.1528-0.42905-0.47367-0.71932-0.87786-0.7293z" fill="none" stroke-width="2.2505"/>
+<path d="m6.2067 27.99c-0.10318 0.26086-0.16726 0.50424-0.17152 0.71164l-0.035199 0.027366v8.0119c0 0.83865 0.57022 1.2591 1.4294 1.2591h33.197c0.84742 0 1.3722-0.55527 1.3722-1.4272v-7.8398c0.0038-0.02675-0.0019-0.05474 0-0.08212v-0.16422l-0.0264-0.0038c-0.0096-0.13129-7.2e-5 -0.25928-0.05718-0.39883l-0.04398-0.09386z" fill="#8e8e8e" filter="url(#filter947)" stroke-width="2.1232"/>
+<path d="m16 24h16v3h-16zm8-12 8 9h-16z" opacity=".5"/>
+</svg>

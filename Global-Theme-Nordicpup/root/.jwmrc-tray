@@ -1,0 +1,24 @@
+<?xml version="1.0"?>  
+<JWM>
+	<Tray autohide="off" insert="right" x="0" y="0" width="0" height="30" layer="above" layout="horizontal" halign="center" valign="bottom" >
+		<Spacer width="5" height="5"/>
+		<TrayButton popup="Shutdown-gui" icon="/root/.icons/launchers/shutdown.svg" border="true">exec:shutdown-gui</TrayButton>
+    	<Spacer width="5" height="5"/>
+		<Pager labeled="true"/>
+		<Spacer width="240" height="5"/>
+		<TrayButton popup="File-Manager" icon="/root/.icons/launchers/folder.svg">exec:rox</TrayButton>
+		<Spacer width="10" height="5"/>
+		<TrayButton popup="Browser" icon="/root/.icons/launchers/www.svg" border="true">exec:defaultbrowser</TrayButton>
+		<Spacer width="10" height="5"/>
+		<TrayButton popup="Terminal" icon="/root/.icons/launchers/term.svg" border="false">exec:defaultterminal</TrayButton>
+		<Spacer width="10" height="5"/>
+		<TrayButton popup="Pmount" icon="/root/.icons/launchers/drive.svg" border="false">exec:pmount</TrayButton>
+		<Spacer width="240" height="5"/>
+		<Dock spacing="10"/>
+		<Spacer width="5" height="5"/>
+	</Tray>
+<Tray autohide="on" insert="right" x="0" y="-1" width="-977" height="45" layer="above" layout="horizontal" halign="center" valign="top">
+			<Spacer width="5" height="5"/>
+		<TaskList width="5" labeled="false"/>
+	</Tray>	
+</JWM>

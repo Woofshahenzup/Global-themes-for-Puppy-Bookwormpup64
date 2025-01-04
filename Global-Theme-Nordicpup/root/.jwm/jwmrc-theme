@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+
+<!-- Created by JWM Theme Builder -->
+<!-- Format requires JWM >= 2.3.6 -->
+
+<JWM>
+
+<WindowStyle>
+	<Font>Neuropolitical-10:bold</Font>
+	<Width>4</Width>
+	<Height>22</Height>
+	<Corner>3</Corner>
+	<Active>
+		<Foreground>#dedede</Foreground>
+		<Background>#303643:#303643</Background>
+		<Outline>#ff5400</Outline>
+	</Active>
+	<Foreground>#999999</Foreground>
+	<Background>#2e3034:#2e3033</Background>
+	<Outline>#ffffff</Outline>
+</WindowStyle>
+
+<TrayStyle>
+	<Font>NotoMono-10:bold</Font>
+	<Opacity>0.95</Opacity>
+	<Foreground>#dedede</Foreground>
+	<Background>#303643:#303643</Background>
+	<Outline>#303643</Outline>
+	<Active>
+		<Foreground>#dcdcdc</Foreground>
+		<Background>#303643:#303643</Background>
+	</Active>
+</TrayStyle>
+
+<TrayButtonStyle>
+	<Font>NotoMono-10:bold</Font>
+	<Foreground>#e2e2e2</Foreground>
+	<Background>#303643:#303643</Background>
+	<Outline>#ffffff</Outline>
+	<Active>
+		<Foreground>#303643</Foreground>
+		<Background>#232932:#232932</Background>
+	</Active>
+</TrayButtonStyle>
+
+<TaskListStyle>
+	<Font>NotoMono-10:bold</Font>
+	<Foreground>#dcdad5</Foreground>
+	<Background>#303643:#303643</Background>
+	<Outline>#ffffff</Outline>
+	<Active>
+		<Foreground>#e4e4e4</Foreground>
+		<Background>#303643:#303643</Background>
+	</Active>
+</TaskListStyle>
+
+<PagerStyle>
+ <Font>Neuropolitical-10:normal</Font>
+  <Text>#B48EAD</Text>
+	<Outline>#dedede</Outline>
+	<Foreground>#232932</Foreground>
+	<Background>#232932</Background>
+	<Active>
+		<Foreground>#303643</Foreground>
+		<Background>#303643</Background>
+	</Active>
+</PagerStyle>
+
+<PopupStyle delay="500">
+	<Font>Neuropolitical-15:normal</Font>
+	<Outline>#303643</Outline>
+	<Foreground>#dedede</Foreground>
+	<Background>#303643</Background>
+</PopupStyle>
+
+<MenuStyle>
+	<Font>NotoMono-10:bold</Font>
+	<Foreground>#ffffff</Foreground>
+	<Background>#232932</Background>
+	<Outline>#303643</Outline>
+	<Active>
+		<Foreground>#dcdcdc</Foreground>
+		<Background>#303643:#303643</Background>
+	</Active>
+</MenuStyle>
+
+<ClockStyle>
+	<Font>NotoMono-10:bold</Font>
+	<Foreground>#dedede</Foreground>
+	<Background>#303643:#303643</Background>
+</ClockStyle>
+
+</JWM>
+

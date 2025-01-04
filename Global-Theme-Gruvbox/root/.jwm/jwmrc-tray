@@ -1,0 +1,16 @@
+<?xml version="1.0"?>  
+<JWM>
+	<Tray autohide="off" insert="right" width="0" height="30" layer="above" layout="horizontal" halign="left" valign="top" >
+		<Spacer width="15" height="15"/>
+		<TrayButton label="" icon="gruvboxlight.svg" border="true">root:3</TrayButton>
+		<Spacer width="5" height="5"/>
+		<TaskList maxwidth="200" labeled="false"/>
+		<Spacer width="10" height="10"/>
+		<Pager labeled="true"/>
+		<Spacer width="10" height="10"/>
+		<Dock spacing="2"></Dock>
+		<Spacer width="5" height="5"/>
+		<Clock format="%d %b %l:%M %p"><Button mask="1">exec:minixcal</Button><Button mask="3">exec:PupClockset</Button></Clock>
+		<Spacer width="10" height="10"/>
+	</Tray>
+</JWM>

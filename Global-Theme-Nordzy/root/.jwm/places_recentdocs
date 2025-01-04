@@ -1,0 +1,21 @@
+#!/bin/bash
+#this script is started from $HOME/.jwmrc
+
+XBEL_PATH=$HOME/.local/share/recently-used.xbel
+MAX_ITEMS=20
+
+if [[ -e $XBEL_PATH ]];then
+   LANG=C
+   ITEMS=$(grep -a file:/// "$XBEL_PATH" | tail -n $MAX_ITEMS | cut -d "\"" -f2 | sed 's%file://%%g')
+   echo -n > /tmp/jwmdocs
+   for i in $ITEMS
+     do
+       [ -f ${i} ] && echo -e "<Program label=\"• ${i}\">xdg-open \"${i}\"</Program>" >> /tmp/jwmdocs
+     done
+   ITEMS=$(cat /tmp/jwmdocs)
+else
+   ITEMS="<Program label=\"${XBEL_PATH##*/} not found!\"></Program>"
+fi
+echo '<JWM>'
+echo -e "${ITEMS}"
+echo '</JWM>'
