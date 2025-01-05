@@ -1,2 +1,9 @@
-# Global-themes-for-Puppy-Bookwormpup64
-Eye candy for Bookwormpup64
+# **Gallery 📷**
+| NewNordic                                                                                              | NordicPup                                                                                      | Gruvbox                                                                                                               |
+| :----------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------  |
+| [![Screenshot-3.png](https://i.postimg.cc/N0bJwPgQ/Screenshot-3.png)](https://postimg.cc/06MdYnM4)     | [![Screenshot.png](https://i.postimg.cc/dVqRMkgj/Screenshot.png)](https://postimg.cc/bsBSkJyZ) | [![Screenshot-gruvbox.png](https://i.postimg.cc/HkntX69P/Screenshot-gruvbox.png)](https://postimg.cc/PCGZkzcm)        |
+| Nordzy                                                                                                 | Pop                                                                                            | Numix                                                                                                                 |
+| [![Screenshot.png](https://i.postimg.cc/261C5hZg/Screenshot.png)](https://postimg.cc/Kkh6qKQ5)         | [![pop.png](https://i.postimg.cc/59HjFRrr/pop.png)](https://postimg.cc/4ngXDBsv)               | [![num2.png](https://i.postimg.cc/9fcTNn8G/num2.png)](https://postimg.cc/XrDprQ0J)                                    |
+| Paper                                                                                                  | PlagueSur                                                                                                                                                                                                              |
+| [![paper3.png](https://i.postimg.cc/yYRpGZvD/paper3.png)](https://postimg.cc/MvWYMvkw)                 | [![Plague-Sur-Screenshot.png](https://i.postimg.cc/m2bsByt1/Plague-Sur-Screenshot.png)](https://postimg.cc/qgZYGncp)                                                                                                   |
+
